@@ -1,4 +1,8 @@
+/* DEVELOPER Batul Anous, IS117-003, Fall 2024 */
 * {box-sizing:border-box}
+.mySlides:not(:first-child){
+  display:none;
+}
 
 /* Slideshow container */
 .container-fluid2 .slideshow-container {
@@ -7,8 +11,9 @@
   margin: 120px auto;
 }
 
-.container-fluid2 .slideshow-container .mySlides {
-    display: none;
+.container-fluid2 .slideshow-container .mySlides{
+     display: none;
+
 }
 
 .mySlides img {
@@ -17,6 +22,7 @@
     height: 600px;
     width: 200px;
     
+
 }
 
 /* Next & previous buttons */
@@ -81,4 +87,5 @@
 
 .active, .dot:hover {
   background-color: #717171;
+  
 }

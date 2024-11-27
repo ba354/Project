@@ -1,6 +1,6 @@
-
+/* DEVELOPER Batul Anous, IS117-003, Fall 2024 */
 .footer {
-    position: fixed;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -8,11 +8,15 @@
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
+}
+.text-muted {
+    color: #000000 !important;
 }
 a {
     color: #000000;
-    text-decoration: underline;
+    text-decoration: none;
+    line-height: 10px;
 }
 
 .navbar-dark .navbar-brand {

@@ -1,4 +1,10 @@
+/* DEVELOPER Batul Anous, IS117-003, Fall 2024 */
+
 * {box-sizing:border-box}
+
+.mySlides2:not(:first-child){
+  display:none;
+}
 
 /* Slideshow container */
 .container-fluid2 .slideshow-container2 {
@@ -16,6 +22,7 @@
     vertical-align: right;
     height:600px;
     width: 200px;
+ 
     
 }
 
