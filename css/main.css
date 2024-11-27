@@ -35,15 +35,32 @@ a {
     -webkit-tap-highlight-color: transparent;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+.h1, .h2, .h3, .h5, .h6, h1, h2, h3, h5, h6 {
     margin-top: 0;
     margin-bottom: 2rem;
     font-weight: 500;
     color:rgb(199, 144, 233);
     line-height: 1.2;
+    display: block;
+}
+
+.h4, h4{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 500;
+    color:rgb(199, 144, 233);
+    line-height: 1.2;
+    word-spacing: 200px;
 }
 .text-center {
     text-align: center !important;
+}
+
+.image-container { 
+    padding: 10px; /* Space around the images */ 
+} 
+img { 
+    margin: 15px; /* Space between the images */ 
 }
 
 .col-sm-4 {
